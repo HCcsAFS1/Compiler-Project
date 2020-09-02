@@ -1,0 +1,7 @@
+1 (define-fun (gcd (int a) (int b)) int
+2 ; this is a comment
+3 (if (= a b) a
+4 (if (> a b) (gcd b (- a b))
+5 (let (c (- b a)) (GCD a c)))))
+6 (eval (gcd (get-int) (Get-int)))
+
