@@ -1,0 +1,5 @@
+1 (define-fun (check (int a) (int b) (int c)) bool
+2 ; check whether a%b ==c number
+3 (if (= (moD a b) c) true
+4 false))
+6 (print(check(GEt-Int) (get-int) (Get-Int) ))

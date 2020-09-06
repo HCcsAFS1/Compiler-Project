@@ -1,0 +1,8 @@
+1 (define-fun (max (int a) (int b) (int c)) int
+2 ; maximum of a,b,c
+3 ; a > b and a > c 
+4 (if (and (>a b) (> a c)) a
+5 ; b > a and b > c
+6 (if (and (>b a) (> b c)) b
+7 c)))
+8 (print (max (get-INt) (get-INT) (geT-INT)))

@@ -1,0 +1,6 @@
+1 (define-fun (Fibonacci (int n) (int a) (int b)) int
+2 ; this is a comment
+3 (if (= n a) a
+4 (if (= n b) a
+5 (+(Fibonacci (- n a))  (fibonacci (- n b))))) 
+6 (eval (Fibonacci (get-int) (get-Int) (Get-INt)))

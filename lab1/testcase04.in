@@ -1,0 +1,5 @@
+1 (define-fun (sum (int a) （int base)) int
+2 ; Sum of digits
+3 (if (< a base) A
+4 (let (b (div a base)) (+ (Mod a base) (sum b)))))
+5 (eval (sum(get-INT) (get-INt)))

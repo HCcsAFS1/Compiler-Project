@@ -1,0 +1,7 @@
+1 (define-fun (max2 (int a) (int b)) int
+2 ; maximum of a,b
+3 ; a > b
+4 (if (>a b) a
+5 ; b >= a
+6 b))
+7 (print (max2 (max2 (get-int) （GET-INT))  (max2 (get-INT) (GET-INt))))
